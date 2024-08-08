@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nikola Obradovic-Portfolio</title>
+
+    <link href="../css/general.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
+    <link href="../css/media.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Teko"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Archivo Black"
+      rel="stylesheet"
+    />
+
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+></script>
+<script
+    nomodule=""
+    src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+></script>
+  </head>
+  <body>
+
+    <header class="header">
+      <a href="index.html" class="main-nav-link">NIKOLA OBRADOVIĆ</a></li>
+      <nav class="main-nav">
+          <ul class="main-nav-list">
+              <li><a href="index.php" class="main-nav-link">HERO</a></li>
+          
+                  <li>
+                      <a href="Login.php" class="main-nav-link">SERVICES</a>
+                  </li>
+                  <li>
+                      <a href="Login.php" class="main-nav-link">PROJECTS</a>
+                  </li>
+                  <li>
+                    <a href="Login.php" class="main-nav-link">ABOUT ME</a>
+                </li>
+         
+          </ul>
+        
+      </nav>
+      <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+  
+  </header>
+
+    <section>
+      <div class="container-flex">
+        <div class="text-content arch-b">
+          <h1 class="imm text">
+            Bringing innovative<br />web-based solutions<br />to life
+          </h1>
+
+          <div class="small-line"></div>
+          <p class="imm text">I create websites and software applications</p>
+          <div class="social-icons imm text">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="image-content imm img">
+          <img
+            class="absolute"
+            src="../images/nikola.png"
+            alt="Profile picture"
+          />
+        </div>
+      </div>
+    </section>
+    <script>
+      var elements = $(".text, .img").toArray();
+
+      // Function to check elements on scroll
+      function checkElements() {
+        elements.forEach(function (item) {
+          if ($(window).scrollTop() >= $(item).offset().top - 400) {
+            $(item).addClass("reveal");
+          }
+        });
+      }
+
+      // Function to reveal elements with the class "imm" on page load
+      function revealImmElements() {
+        $(".imm").addClass("reveal");
+      }
+
+      // Initial check for elements in viewport
+      checkElements();
+
+      // Scroll event to check elements
+      $(window).scroll(function () {
+        checkElements();
+      });
+
+      // Reveal "imm" elements on page load
+      revealImmElements();
+
+      /*  var elements = $(".text, .img").toArray();
+      $(window).scroll(function () {
+        elements.forEach(function (item) {
+          if ($(this).scrollTop() >= $(item).offset().top - 400) {
+            $(item).addClass("reveal");
+          }
+        });
+      });
+
+      elements.forEach(function (item) {
+        if ($(this).scrollTop() >= $(item).offset().top - 400) {
+          $(item).addClass("reveal");
+        }
+      });*/
+    </script>
+  </body>
+</html>

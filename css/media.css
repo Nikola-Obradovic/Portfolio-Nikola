@@ -1,0 +1,65 @@
+/* ---------------- */
+/* BELOW 1200px (Landscape Tablets) */
+/* ---------------- */
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .image-content {
+    width: 45rem;
+  }
+}
+
+/* ---------------- */
+/* BELOW 944px (Tablets) */
+/* ---------------- */
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .image-content {
+    width: 42rem;
+  }
+}
+
+/* ---------------- */
+/* BELOW 704px  (Smaller Tablets) */
+/* ---------------- */
+@media (max-width: 44em) {
+  .image-content {
+    width: 38rem;
+  }
+
+  .container-flex {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .text-content {
+    position: static;
+  }
+
+  .social-icons {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .small-line {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* ---------------- */
+/* BELOW 544px (Mobile) */
+/* ---------------- */
+@media (max-width: 34em) {
+  .text-content h1 {
+    font-size: 4rem;
+  }
+  .image-content {
+    width: 32rem;
+  }
+}

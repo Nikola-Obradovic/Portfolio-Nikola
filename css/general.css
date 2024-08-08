@@ -1,0 +1,126 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Teko", sans-serif;
+  line-height: 1.6;
+  color: #fff;
+  font-size: 1.6rem;
+  background-color: #171617;
+}
+
+a:link,
+a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ---------------- */
+/* DIV */
+/* ---------------- */
+.div-center {
+  margin: 0 auto;
+}
+
+/* ---------------- */
+/* CONTAINER */
+/* ---------------- */
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+/* ---------------- */
+/* GRIDS */
+/* ---------------- */
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* ---------------- */
+/* FLEXBOX */
+/* ---------------- */
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapped {
+  flex-wrap: wrap;
+}
+.flex-column {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* ---------------- */
+/* MARGINS */
+/* ---------------- */
+.margin-bottom-sm {
+  margin-bottom: 1.6rem;
+}
+
+.margin-bottom-xsm {
+  margin-bottom: 3.2rem;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem;
+}
+.margin-bottom-lg {
+  margin-bottom: 6.4rem;
+}
+
+.margin-left-sm {
+  margin-left: 1.6rem;
+}
+
+.margin-left-xsm {
+  margin-left: 3.2rem;
+}
+
+.margin-left-lm {
+  margin-left: 4.2rem;
+}
+
+.margin-top-md {
+  margin-top: 2.5rem;
+}
+.margin-top-slg {
+  margin-top: 8rem;
+}
+.margin-top-lg {
+  margin-top: 16rem;
+}
+
+/* ---------------- */
+/* SECTION */
+/* ---------------- */
+section {
+  padding: 9.6rem 0rem;
+}
