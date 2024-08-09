@@ -79,9 +79,20 @@
   html {
     font-size: 50%;
   }
-
+  .services-section img {
+    max-width: 350px;
+  }
+  .services-list {
+    font-size: 2rem;
+  }
   .image-content {
     width: 42rem;
+  }
+
+  .services-section .grid--2-cols {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    row-gap: 3.2rem;
   }
 }
 

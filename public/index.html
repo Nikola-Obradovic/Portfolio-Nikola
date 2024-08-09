@@ -40,7 +40,7 @@
               <li><a href="#hero" class="main-nav-link">HERO</a></li>
           
                   <li>
-                      <a href="Login.php" class="main-nav-link">SERVICES</a>
+                      <a href="#services" class="main-nav-link">SERVICES</a>
                   </li>
                   <li>
                       <a href="Login.php" class="main-nav-link">PROJECTS</a>
@@ -59,10 +59,10 @@
   
   </header>
 
-    <section>
+    <section id="hero">
       <div class="container-flex">
         <div class="text-content arch-b">
-          <h1 class="imm text" id="hero">
+          <h1 class="imm text">
             Bringing innovative<br />web-based solutions<br />to life
           </h1>
 
@@ -84,13 +84,42 @@
         </div>
       </div>
     </section>
+    <hr class="margin-bottom-lg" />
+    <section class="services-section margin-bottom-lg" id="services">
+      <div class="container">
+        <h1 class="text text-center heading margin-bottom-md">SERVICES</h1>
+        <div class="grid grid--2-cols vertical-center">
+       <div class="img">
+
+         <img alt="computer setup" src="../images/pc.png">  
+
+       </div>
+    
+        <ul class="arch-b services-list text">
+          <li class="margin-bottom-sm"><span><i class="fas fa-check"></i></span> UI/UX Design</li>
+          <li class="margin-bottom-sm"><span><i class="fas fa-check"></i></span> Web Application Development</li>
+          <li class="margin-bottom-sm"><span><i class="fas fa-check"></i></span> Mobile Application Development</li>
+          <li class="margin-bottom-sm"><span><i class="fas fa-check"></i></span> Desktop Application Development</li>
+        </ul>
+       
+
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="margin-bottom-lg" />
+    <section></section>
+
+
+
     <script>
       var elements = $(".text, .img").toArray();
 
       // Function to check elements on scroll
       function checkElements() {
         elements.forEach(function (item) {
-          if ($(window).scrollTop() >= $(item).offset().top - 400) {
+          if ($(window).scrollTop() >= $(item).offset().top - 800) {
             $(item).addClass("reveal");
           }
         });
