@@ -283,9 +283,10 @@ hr {
       rgba(34, 34, 34, 0.6),
       rgba(34, 34, 34, 0.6)
     ),
-    url(../images/ck.png);
+    url(../images/Checkify-background.svg);
   background-color: rgb(220, 233, 241);
   background-position: top; /* Center the image */
+  background-repeat: repeat;
 }
 .seniorlab {
   backdrop-filter: blur(30px);
@@ -293,9 +294,37 @@ hr {
       rgba(34, 34, 34, 0.6),
       rgba(34, 34, 34, 0.6)
     ),
-    url(../images/slab.png);
+    url(../images/slab-backgroundImg);
   background-color: #9e9f9f;
   background-position: right; /* Center the image */
+  background-size: auto, 50rem auto;
+  background-position: center;
+}
+
+.ace {
+  backdrop-filter: blur(30px);
+  background-image: linear-gradient(
+      rgba(139, 47, 56, 0.6),
+      rgba(139, 47, 56, 0.6)
+    ),
+    url(../images/ace.svg);
+  background-color: #9e9f9f;
+  background-position: right; /* Center the image */
+  background-repeat: repeat;
+  background-size: auto, 50rem auto;
+}
+
+.bosnivi {
+  backdrop-filter: blur(30px);
+  background-image: linear-gradient(
+      rgba(112, 148, 172, 0.6),
+      rgba(112, 148, 172, 0.6)
+    ),
+    url(../images/bosnivi.svg);
+  background-color: #9e9f9f;
+  background-position: right; /* Center the image */
+  background-size: auto, 50rem auto;
+  background-position: center;
 }
 
 .dark-text {
