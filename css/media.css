@@ -70,6 +70,18 @@
   .pop-up {
     width: 90%;
   }
+  .project-container .grid--2-cols-1-2 {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 7.8rem;
+  }
+  .project-container {
+    padding: 9.8rem 9.8rem; /* Adjust the padding to fit smaller screens */
+    height: auto;
+  }
+
+  .project-container .flex {
+    flex-direction: column;
+  }
 }
 
 /* ---------------- */
@@ -93,19 +105,6 @@
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
     row-gap: 3.2rem;
-  }
-
-  .project-container .grid--2-cols-1-2 {
-    grid-template-columns: repeat(1, 1fr);
-    row-gap: 7.8rem;
-  }
-  .project-container {
-    padding: 9.8rem 9.8rem; /* Adjust the padding to fit smaller screens */
-    height: auto;
-  }
-
-  .project-container .flex {
-    flex-direction: column;
   }
 }
 

@@ -23,7 +23,7 @@ ANIMATION
   height: 100%;
 }
 .text.reveal:before {
-  background: #6c2e13;
+  background: #6076a9;
   animation: blockRevealAnimation 0.8s ease forwards;
 }
 
@@ -49,7 +49,7 @@ ANIMATION
 }
 
 .img.reveal:before {
-  background: #544c26;
+  background: #697c88;
   animation: blockRevealAnimation 0.8s ease forwards;
 }
 .img.reveal img {
@@ -187,10 +187,14 @@ ANIMATION
 
 .main-nav {
   display: flex;
-  width: 100%;
+  width: 70%;
+}
+.main-nav-link-primary {
+  text-align: center;
 }
 
 .main-nav-list {
+  margin-right: auto;
   margin-left: auto;
   list-style: none;
   display: flex;
@@ -269,7 +273,7 @@ hr {
 
 .project-container {
   border-radius: 5px;
-  max-width: 90%;
+  max-width: 80%;
   margin: 0 auto;
   padding: 9.8rem 9.8rem;
 
@@ -289,7 +293,6 @@ hr {
   background-repeat: repeat;
 }
 .seniorlab {
-  backdrop-filter: blur(30px);
   background-image: linear-gradient(
       rgba(34, 34, 34, 0.6),
       rgba(34, 34, 34, 0.6)
@@ -302,7 +305,6 @@ hr {
 }
 
 .ace {
-  backdrop-filter: blur(30px);
   background-image: linear-gradient(
       rgba(139, 47, 56, 0.6),
       rgba(139, 47, 56, 0.6)
@@ -315,7 +317,6 @@ hr {
 }
 
 .bosnivi {
-  backdrop-filter: blur(30px);
   background-image: linear-gradient(
       rgba(112, 148, 172, 0.6),
       rgba(112, 148, 172, 0.6)
