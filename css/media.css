@@ -113,7 +113,7 @@
 /* ---------------- */
 @media (max-width: 44em) {
   .container-flex {
-    margin-top: -180px;
+    margin-top: 5%;
   }
 
   .image-content {
@@ -150,9 +150,6 @@
 /* BELOW 544px (Mobile) */
 /* ---------------- */
 @media (max-width: 34em) {
-  .container-flex {
-    margin-top: -220px;
-  }
   .text-content h1 {
     font-size: 4rem;
   }
